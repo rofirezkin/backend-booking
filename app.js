@@ -33,7 +33,7 @@ app.set("view engine", "ejs");
 app.use(methodOverride("_method"));
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "http://101.50.2.112:3000",
   })
 );
 app.use(
